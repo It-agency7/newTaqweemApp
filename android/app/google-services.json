@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "81102307897",
+    "project_id": "taqwem-557db",
+    "storage_bucket": "taqwem-557db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:81102307897:android:bd50c86c87600f0193c3e8",
+        "android_client_info": {
+          "package_name": "com.metafortech.taqwem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "81102307897-a7c4tqmtu1d1dncc3nvmhmve3m3aveuo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJUM-0yHyfmKGMulkwb0KMe0gSPyEPZiY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "81102307897-a7c4tqmtu1d1dncc3nvmhmve3m3aveuo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

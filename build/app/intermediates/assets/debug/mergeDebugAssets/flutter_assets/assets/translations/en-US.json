@@ -1,0 +1,21 @@
+{
+    "no_route_found": "No Route Found",
+    "sign_in": "Sign In",
+    "create_account": "Sign Up",
+    "name": "Name",
+    "email": "Email",
+    "password": "Password",
+    "confirm_password": "Confirm Password",
+    "forgot_password": "Forgot Password",
+    "email_error1": "Email is required",
+    "email_error2": "Invalid email address",
+    "password_error1": "Password is required",
+    "password_error2": "Password must be at least 8 characters long",
+    "confirm_password_error1": "Password confirmation is required",
+    "confirm_password_error2": "Password and confirmation do not match",
+    "name_error" : "Please enter your name",
+    "conditions" : "I agree to the terms and conditions",
+    "terms_error" : "Please accept the terms and conditions to proceed.",
+    "internet_error": "Please Check your internet Connection",
+    "home": "Home"
+}
