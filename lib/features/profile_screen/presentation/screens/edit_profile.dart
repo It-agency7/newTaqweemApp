@@ -163,7 +163,7 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
             context: context,
             type: QuickAlertType.success,
             title: 'تم بنجاح',
-            text: responseModel.message,
+            text: '',
             confirmBtnText: StringsManager.okay.tr,
             confirmBtnColor: Colors.green,
           ).then((value) {
@@ -174,7 +174,7 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
             context: context,
             type: QuickAlertType.error,
             title: StringsManager.error.tr,
-            text: responseModel.message,
+            text: '',
             confirmBtnText: StringsManager.okay.tr,
             confirmBtnColor: Colors.red,
           );
