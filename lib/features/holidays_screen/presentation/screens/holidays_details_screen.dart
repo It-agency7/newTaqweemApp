@@ -43,7 +43,7 @@ class _HolidaysDetailsScreenState extends State<HolidaysDetailsScreen> {
         .add(Duration(hours: (int.parse(note.time[0] + note.time[1])), minutes: int.parse(note.time[3] + note.time[4])));
     return Scaffold(
       appBar: TopAppBar(showBackButton: true),
-      bottomNavigationBar: AppBottomNavigationBar(1),
+      bottomNavigationBar: AppBottomNavigationBar(2),
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.all(DistancesManager.screenPadding),
