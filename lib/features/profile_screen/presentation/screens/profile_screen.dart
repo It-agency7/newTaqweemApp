@@ -285,6 +285,22 @@ class ProfileBodyWidget extends StatelessWidget {
                         ),
                       )
                     : Container(),
+                !mainCubit.isAuthorized()
+                    ? TextButton(
+                        onPressed: () async {
+                          Navigator.pushAndRemoveUntil(
+                              context, MaterialPageRoute(builder: (context) => const LoginScreen()), (route) => false);
+                        },
+                        child: Text(
+                          'login'.tr,
+                          style: const TextStyle(
+                            fontWeight: FontWeight.w600,
+                            fontSize: 16.0,
+                            color: Colors.black,
+                          ),
+                        ),
+                      )
+                    : Container(),
               ],
             ),
           );
